@@ -1,14 +1,14 @@
 import React from 'react'
-import YoutubeEmbed from '../../components/Youtube'
-import tsLogo from '../../images/tsLogo.png'
-import Classes from '../../styles/Pages.module.scss'
+import YoutubeEmbed from '../../../components/Youtube'
+import tsLogo from '../../../images/tsLogo.png'
+import Classes from '../../../styles/Pages.module.scss'
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import {GoPrimitiveDot} from 'react-icons/go'
-import Navbar from '../../components/Navbar'
+import Navbar from '../../../components/Navbar'
 
 export default function index() {
     return (
-        <div>
+        <div className={Classes.Container}>
             <Navbar logo={tsLogo}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
@@ -68,7 +68,6 @@ export default function index() {
             <YoutubeEmbed embedId="qZ3xDaWpRzo"/>
             </div>
             </div>
-            
         </div>
     )
 }

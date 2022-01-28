@@ -34,15 +34,18 @@ main{
         font-weight: bold;
     }
 
-    .level{
+    .categories{
         background-color: #F7F7F7;
         display: flex;
-        justify-content: space-evenly;
+        flex-wrap: wrap;
         align-items: center;
 
         span{
             transition: .1s;
-
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
            span:hover{
             transform: scale(0.9);
             cursor: pointer;
@@ -50,4 +53,25 @@ main{
         }
     } 
 }
+}
+@media screen and (max-width:850px) {
+    .container{
+        main{
+            .welcome{
+            font-size: 14px;
+        
+            h3{
+                font-size: 16px;
+                padding: 10px;
+                strong{
+                    font-size: 14px;
+                }
+            }
+            }
+            p{
+                margin-top: 1rem;
+                font-size: 16px;
+            }
+        }
+        }
 }

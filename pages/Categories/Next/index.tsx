@@ -1,13 +1,14 @@
-import Navbar from "../../components/Navbar"
-import YoutubeEmbed from "../../components/Youtube"
+import Navbar from "../../../components/Navbar"
+import YoutubeEmbed from "../../../components/Youtube"
 import {GoPrimitiveDot} from 'react-icons/go'
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import Classes from '../../styles/Pages.module.scss'
-import nextLogo from '../../images/nextLogo.png'
+import Classes from '../../../styles/Pages.module.scss'
+import nextLogo from '../../../images/nextLogo.png'
 export default function index() {
   return (
-  <div>
+  <div className={Classes.Container}>
       <Navbar logo={nextLogo}/>
+      {/* --------------ITEMS------------------------------------- */}
             <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>

@@ -6,6 +6,12 @@ import reactLogo from '../images/reactLogo.png'
 import nextLogo from '../images/nextLogo.png'
 import tsLogo from '../images/tsLogo.png'
 import webLogo from '../images/completeWeb2.png'
+import ReduxLogo from '../images/Redux.png'
+import axiosLogo from '../images/axiosLogo.png'
+import sassLogo from '../images/sassLogo.png'
+import bootstrapLogo from '../images/bootsrapLogo.png'
+import jsonLogo from '../images/jsonLogo.png'
+import nodejsLogo from '../images/nodejsLogo.png'
 import {GoPrimitiveDot} from 'react-icons/go'
 
 export default function Home() {
@@ -33,11 +39,17 @@ export default function Home() {
 
         <p>&nbsp;&nbsp;&nbsp;nereden başlamak istersin;</p>
 
-        <div className={Classes.level}>
-<span><Image alt='react js' src={reactLogo} onClick={() => router.push("/React")}/></span>
-<span><Image alt='next js' src={nextLogo} onClick={() => router.push("/Next")}/></span>
-<span><Image alt='typescript' src={tsLogo} onClick={() => router.push("/TypeScript")}/></span>
-<span><Image alt='complete web' src={webLogo} onClick={() => router.push("/CompleteWeb")}/></span>
+        <div className={Classes.categories}>
+<span><Image alt='react js' src={reactLogo} onClick={() => router.push("Categories/React")}/></span>
+<span><Image alt='next js' src={nextLogo} onClick={() => router.push("Categories/Next")}/></span>
+<span><Image alt='typescript' src={tsLogo} onClick={() => router.push("Categories/TypeScript")}/></span>
+<span><Image alt='complete web' src={nodejsLogo} onClick={() => router.push("Categories/Nodejs")}/></span>
+<span><Image alt='complete web' src={webLogo} onClick={() => router.push("Categories/CompleteWeb")}/></span>
+<span><Image alt='complete web' src={ReduxLogo} onClick={() => router.push("Categories/Redux")}/></span>
+<span><Image alt='complete web' src={axiosLogo} onClick={() => router.push("Categories/Axios")}/></span>
+<span><Image alt='complete web' src={sassLogo} onClick={() => router.push("Categories/Sass")}/></span>
+<span><Image alt='complete web' src={bootstrapLogo} onClick={() => router.push("Categories/Bootstrap")}/></span>
+<span><Image alt='complete web' src={jsonLogo} onClick={() => router.push("Categories/Json")}/></span>
         </div>
       </main>
 

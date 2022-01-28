@@ -1,83 +1,114 @@
-.main{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
-    background-color: #FFFFFF;border-radius: 6px;box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);height: 100%;width: 100%;margin-bottom: 2rem;padding: 2rem;
-
-    .about{
-        width: 50%;
+.Container{
+    background-color: whitesmoke;
+    .main{
         display: flex;
-        flex-direction: column;
-        background-color: #F7F7F7;
-        padding: 5px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        .header{
-            display: flex;
-            justify-content: space-between;
-            
-            .info{
-                display: flex;
-                flex-direction: column;
-                color: #6d6d6d;
-                font-weight: bold;
-
-            }
-            h2{
-                width: 70%;
-            }
-        }
-        .description{
-            margin-top: 2rem;  
+        justify-content: space-between;
+        padding: 2rem;
+        background-color: #FFFFFF;border-radius: 6px;box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);height: 100%;width: 100%;margin-bottom: 2rem;padding: 2rem;
+    
+        .about{
+            width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            min-height: 60%;
-
-            div{
+            background-color: #F7F7F7;
+            padding: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            .header{
                 display: flex;
-                align-items: center;
-            
-                strong{
-                    margin-right: 10px;
+                justify-content: space-between;
+                
+                .info{
+                    display: flex;
+                    flex-direction: column;
+                    color: #6d6d6d;
+                    font-weight: bold;
+    
+                }
+                h2{
+                    width: 70%;
                 }
             }
-            .sourceElements{
+            .description{
+                margin-top: 2rem;  
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                margin-bottom: 2rem;
-                margin-top: 2rem;
-
-                a{
-                    color: blue;
-                    text-decoration: underline;
-                    
+                justify-content: space-between;
+                min-height: 60%;
+    
+                div{
+                    display: flex;
+                    align-items: center;
+                
+                    strong{
+                        margin-right: 10px;
+                    }
                 }
-                small{
-                    text-decoration: underline;
-                    font-weight: bold;
+                .sourceElements{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-bottom: 2rem;
+                    margin-top: 2rem;
+    
+                    a{
+                        color: blue;
+                        text-decoration: underline;
+                        
+                    }
+                    small{
+                        text-decoration: underline;
+                        font-weight: bold;
+                    }
+                }
+            } 
+        }
+    }
+    .sourceBlock{
+        label{
+            font-weight: 700;
+            margin-left: 1rem;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width:1100px){
+    .Container{
+        .main{
+            flex-direction: column-reverse;
+            padding: 0;
+            .about{
+                width: 100%;
+                .header{
+                    .info{
+                        font-size: 14px;
+                    }
+                    h2{
+                        font-size: 16px;
+                    }
+                }
+                .description{
+                    margin-top: 10px;
+                    height: auto;
+                    div{
+                        font-size: 14px;
+                    }
+                    .sourceElements{
+                        margin-bottom: 15px;
+                        margin-top: 15px;
+                        font-size: 16px;
+                    }
                 }
             }
+        } 
+        .sourceBlock{
+           font-size: 12px;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-bottom: 10px;
         }
-
-        
     }
-    
-    span{
-        display: flex;
-        flex-direction: column;
-        padding-top: 2rem;
-        width: 2.5rem;
-        align-items: flex-end;
     }
-}
-
-.sourceBlock{
-   
-    label{
-        font-weight: 700;
-        margin-left: 1rem;
-        display: flex;
-        align-items: center;
-    }
-}

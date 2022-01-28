@@ -1,12 +1,12 @@
-import Navbar from "../../components/Navbar"
-import YoutubeEmbed from "../../components/Youtube"
+import Navbar from "../../../components/Navbar"
+import YoutubeEmbed from "../../../components/Youtube"
 import {GoPrimitiveDot} from 'react-icons/go'
 import {AiOutlineArrowDown} from 'react-icons/ai'
-import Classes from '../../styles/Pages.module.scss'
-import reactLogo from '../../images/reactLogo.png'
+import Classes from '../../../styles/Pages.module.scss'
+import reactLogo from '../../../images/reactLogo.png'
 export default function index() {
   return (
-  <div>
+  <div className={Classes.Container}>
       <Navbar logo={reactLogo}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
