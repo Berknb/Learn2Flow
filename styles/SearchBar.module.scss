@@ -1,0 +1,24 @@
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+   position: relative;
+   width: 50%;
+    input{
+        width: 100%;
+        height: 46px;
+        border: solid black 1px;
+        border-radius: 4px;
+        padding: 1rem;
+    }
+    button{
+  position: absolute;
+  right: 4px;
+  top: 6px;
+  background-color: transparent;
+  border: 0;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+ }
+}

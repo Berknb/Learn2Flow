@@ -1,4 +1,3 @@
-import { Component } from "react";
 
 export interface Number {
     sayacState: number
@@ -10,5 +9,6 @@ export interface PropYoutube{
 }
 export interface PropNav{
     logo: StaticImageData,
-    
+    height: number,
+    width: number, 
 }

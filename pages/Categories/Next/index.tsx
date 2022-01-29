@@ -7,7 +7,7 @@ import nextLogo from '../../../images/nextLogo.png'
 export default function index() {
   return (
   <div className={Classes.Container}>
-      <Navbar logo={nextLogo}/>
+      <Navbar logo={nextLogo} height={0} width={0}/>
       {/* --------------ITEMS------------------------------------- */}
             <div className={Classes.main}>
                 <div className={Classes.about}>

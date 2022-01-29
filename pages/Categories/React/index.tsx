@@ -7,7 +7,7 @@ import reactLogo from '../../../images/reactLogo.png'
 export default function index() {
   return (
   <div className={Classes.Container}>
-      <Navbar logo={reactLogo}/>
+      <Navbar logo={reactLogo} height={0} width={0}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>

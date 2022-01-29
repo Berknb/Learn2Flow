@@ -1,17 +1,27 @@
 .mainNav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    
     padding: 0 2rem 0 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .homeBtn{
+            cursor: pointer;
+        }
+        .homeBtn:hover{
+            color: rgb(170, 165, 165);
+        }
+    }
+    .searchBar{
+        display: flex;
+        justify-content: center;
+    }
 
-    .homeBtn{
-        cursor: pointer;
-    }
-    .homeBtn:hover{
-        color: rgb(170, 165, 165);
-    }
+    
 }
 @media screen and (max-width:1100px) {
     .mainNav{

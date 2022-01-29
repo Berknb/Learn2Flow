@@ -7,7 +7,7 @@ import axiosLogo from '../../../images/axiosLogo.png'
 export default function index() {
   return (
   <div className={Classes.Container}>
-      <Navbar logo={axiosLogo}/>
+      <Navbar logo={axiosLogo} height={0} width={0}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>

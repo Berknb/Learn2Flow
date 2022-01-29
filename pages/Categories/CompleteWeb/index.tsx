@@ -8,7 +8,7 @@ import YoutubeEmbed from "../../../components/Youtube";
 export default function index() {
   return (
   <div className={Classes.Container}>
-    <Navbar logo={webLogo}/>
+    <Navbar logo={webLogo} height={0} width={0}/>
     <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>

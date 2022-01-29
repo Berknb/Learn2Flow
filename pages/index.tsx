@@ -52,9 +52,6 @@ export default function Home() {
 <span><Image alt='complete web' src={jsonLogo} onClick={() => router.push("Categories/Json")}/></span>
         </div>
       </main>
-
-<button onClick={() => router.push("/Main")}>main</button>
-
       <footer>
       </footer>
     </div>
