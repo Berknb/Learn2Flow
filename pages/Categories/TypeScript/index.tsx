@@ -9,7 +9,7 @@ import Navbar from '../../../components/Navbar'
 export default function index() {
     return (
         <div className={Classes.Container}>
-            <Navbar logo={tsLogo}/>
+            <Navbar logo={tsLogo} height={0} width={0}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>
