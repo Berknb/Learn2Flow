@@ -49,14 +49,14 @@ export default function index() {
                     </section>
                     <section className={Classes.description}>
                         <p>
-                            Gerekli kurulumlardan, temel node.js kullanımını anlatan temiz ve 30 dakikalık kaliteli bir başlangıç eğitimi.
+                            Gerekli kurulumlardan itibaren, temel node.js kullanımını anlatan temiz ve 30 dakika gibi kısa bir süreye sığdırılmış kaliteli bir başlangıç eğitimi.
                         </p>
                         <div className={Classes.sourceElements}>
                             <h3>Kaynakta kullanılan bağlantılar;</h3>
                          <a href='https://nodejs.org/tr/' target="_blank" rel='noreferrer'>nodejs kurulum için (LTS önerilir)</a>
                          <a href='https://github.com/codeSTACKr/node-crash-course' target="_blank" rel='noreferrer'>video&apos;da kullanılan kaynak kodlar.</a>
                         </div>
-                        <div>
+                        <div className={Classes.source}>
           {<GoPrimitiveDot style={{color:"red"}} size={19}/>}<strong>Kod yazarak ilerleme</strong>
                     </div>
                     </section>

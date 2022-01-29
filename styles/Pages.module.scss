@@ -49,8 +49,6 @@
                     align-items: flex-start;
                     margin-bottom: 2rem;
                     margin-top: 2rem;
-                    
-    
                     a{
                         color: blue;
                         text-decoration: underline;
@@ -80,6 +78,7 @@
         .main{
             flex-direction: column-reverse;
             padding: 0;
+            justify-content: space-evenly;
             .about{
                 width: 100%;
                 .header{

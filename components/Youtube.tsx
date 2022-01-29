@@ -1,11 +1,9 @@
 import { PropYoutube } from '../types';
-import Classes from '../styles/Youtube.module.css'
 
 const YoutubeEmbed = ( props : PropYoutube ) => (
-  <div className={Classes.videoResponsive}>
+  <div >
     <iframe
-      width="550"
-      height="320"
+      className="youtube"
       src={`https://www.youtube.com/embed/${props.embedId}`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
