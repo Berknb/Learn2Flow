@@ -51,7 +51,7 @@ export default function index() {
                     <section className={Classes.description}>
                         <p>
                             Temel React bilginiz varsa Typescript fikrini kavrama ve giriş yapmak için ideal kaynak.<br/>
-                            &#160;&#160; Typescript&apos;in react ile kullanımında karşınıza çıkabilecek temel bir kaç duruma kod üzerinde örnek
+                            &#160;&#160; Typescript&apos;in react ile kullanımına kod üzerinden örnek gösteren bir kaynak.
                         </p>
                         <p className={Classes.sourceElements}>
                             <h3>Kaynakta kullanılan bağlantılar;</h3>
