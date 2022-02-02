@@ -5,7 +5,6 @@ import Popup from './Popup'
 import { useState } from 'react'
 import {GrMail, GrLogout} from 'react-icons/gr'
 import {BiUser} from 'react-icons/bi'
-import { auth,logout } from '../initFirebase'
 import { useRouter } from 'next/router'
 
 
@@ -27,7 +26,6 @@ export default function MainNav(props : PropNav) {
 
       <section>
           <BiUser size={25}/>
-          {auth.currentUser ? <p> <GrLogout size={20} onClick={logout}/></p>:<label onClick={()=>router.push("/Login")}>giriş</label>}
       </section>
   </nav>
     )
