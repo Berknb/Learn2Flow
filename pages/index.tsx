@@ -26,7 +26,7 @@ export default function Home() {
       <main>
 
         <span className={Classes.welcome}>
-        <h1>Learn2Flow&apos;a Hoşgeldin !</h1>
+        <h1><span>Learn2Flow</span>&apos;a Hoşgeldin !</h1>
         <h3>
           Bu sayfa güncel ve popüler web geliştirme araçları hakkında ücretsiz eğitim kaynaklarına<br/>
           ulaşabileceğiniz bir rehberdir. Kaynakların içeriği 3 farklı özellikte olabilir;<br/>  
@@ -52,8 +52,6 @@ export default function Home() {
 <span><Image alt='complete web' src={jsonLogo} onClick={() => router.push("Categories/Json")}/></span>
         </div>
       </main>
-      <footer>
-      </footer>
     </div>
   )
 }

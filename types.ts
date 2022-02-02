@@ -1,4 +1,3 @@
-
 export interface Number {
     sayacState: number
     setSayac: () => void
@@ -9,6 +8,6 @@ export interface PropYoutube{
 }
 export interface PropNav{
     logo: StaticImageData,
-    height: number,
-    width: number, 
+    height?: number,
+    width?: number,
 }

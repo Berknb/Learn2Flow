@@ -1,4 +1,4 @@
-import Navbar from "../../../components/Navbar";
+import Navbar from "../../../components/PageNav";
 import webLogo from '../../../images/completeWeb2.png'
 import Classes from '../../../styles/Pages.module.scss'
 import {GoPrimitiveDot} from 'react-icons/go'
@@ -8,7 +8,7 @@ import YoutubeEmbed from "../../../components/Youtube";
 export default function index() {
   return (
   <div className={Classes.Container}>
-    <Navbar logo={webLogo} height={0} width={0}/>
+    <Navbar logo={webLogo}/>
     <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>

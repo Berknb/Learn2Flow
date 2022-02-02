@@ -1,4 +1,4 @@
-import Classes from '../styles/Navbar.module.scss'
+import Classes from './styles/Navbar.module.scss'
 import Image from 'next/image'
 import { PropNav } from '../types'
 import {AiFillHome} from 'react-icons/ai'

@@ -1,4 +1,4 @@
-import Classes from '../styles/SearchBar.module.scss'
+import Classes from './styles/SearchBar.module.scss'
 import {GoSearch} from 'react-icons/go'
 
 export default function SearchBar() {

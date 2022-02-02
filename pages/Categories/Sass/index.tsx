@@ -1,4 +1,4 @@
-import Navbar from "../../../components/Navbar"
+import Navbar from "../../../components/PageNav"
 import YoutubeEmbed from "../../../components/Youtube"
 import {GoPrimitiveDot} from 'react-icons/go'
 import {AiOutlineArrowDown} from 'react-icons/ai'

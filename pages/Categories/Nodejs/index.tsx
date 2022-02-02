@@ -1,4 +1,4 @@
-import Navbar from "../../../components/Navbar"
+import Navbar from "../../../components/PageNav"
 import YoutubeEmbed from "../../../components/Youtube"
 import {GoPrimitiveDot} from 'react-icons/go'
 import {AiOutlineArrowDown} from 'react-icons/ai'
@@ -56,7 +56,7 @@ export default function index() {
                          <a href='https://nodejs.org/tr/' target="_blank" rel='noreferrer'>nodejs kurulum için (LTS önerilir)</a>
                          <a href='https://github.com/codeSTACKr/node-crash-course' target="_blank" rel='noreferrer'>video&apos;da kullanılan kaynak kodlar.</a>
                         </div>
-                        <div className={Classes.source}>
+                        <div>
           {<GoPrimitiveDot style={{color:"red"}} size={19}/>}<strong>Kod yazarak ilerleme</strong>
                     </div>
                     </section>

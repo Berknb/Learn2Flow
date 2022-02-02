@@ -1,3 +1,5 @@
+@import "./globalVar.scss";
+
 .container{
 margin-top: 3rem;
 display: flex;
@@ -14,6 +16,9 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    span{
+        color: $main-theme-color;
+    }
 
     h3{
         margin-top: 3rem;

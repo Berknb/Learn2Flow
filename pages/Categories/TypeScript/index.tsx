@@ -4,12 +4,12 @@ import tsLogo from '../../../images/tsLogo.png'
 import Classes from '../../../styles/Pages.module.scss'
 import {AiOutlineArrowDown} from 'react-icons/ai'
 import {GoPrimitiveDot} from 'react-icons/go'
-import Navbar from '../../../components/Navbar'
+import Navbar from '../../../components/PageNav'
 
 export default function index() {
     return (
         <div className={Classes.Container}>
-            <Navbar logo={tsLogo} height={0} width={0}/>
+            <Navbar logo={tsLogo}/>
             <div className={Classes.main}>
                 <div className={Classes.about}>
                 <section className={Classes.header}>
@@ -66,6 +66,36 @@ export default function index() {
                 <div className={Classes.sourceBlock}>
                 <label><AiOutlineArrowDown size={20}/>Kaynağın sahibine abone olarak destek olmayı unutmayın:&#x29;</label>
             <YoutubeEmbed embedId="qZ3xDaWpRzo"/>
+            </div>
+            </div>
+            {/* 2 */}
+            <div className={Classes.main}>
+                <div className={Classes.about}>
+                <section className={Classes.header}>
+                    <h2>Typescript temel type tanımlamaları</h2>
+                    <div className={Classes.info}>
+                        <p>süre: 52dk</p>
+                        <p>dil: İngilizce</p>
+                        <p>altyazı: Youtube otomatik çevirme &#x28;anlaşılır şekilde&#x29;</p>
+                    </div>
+                    </section>
+                    <section className={Classes.description}>
+                        <p>
+                            kod üzerinde typescript tanımlamaları nasıl kullanılır ne avantaj sağlar açıkça görebileceğiniz bir kaynak.
+                        </p>
+                        <p className={Classes.sourceElements}>
+                            <h3>Kaynakta kullanılan bağlantılar;</h3>
+                         <a href='https://nodejs.org/tr/' target="_blank" rel='noreferrer'>nodejs kurulum için (LTS önerilir)</a>
+                        </p>
+                        <div>
+          {<GoPrimitiveDot style={{color:"red"}} size={19}/>}<strong>Kod yazarak ilerleme</strong>
+          {<GoPrimitiveDot style={{color:"khaki"}} size={19}/>}<strong>Dökümantasyon</strong>
+                    </div>
+                    </section>
+                </div>
+                <div className={Classes.sourceBlock}>
+                <label><AiOutlineArrowDown size={20}/>Kaynağın sahibine abone olarak destek olmayı unutmayın:&#x29;</label>
+            <YoutubeEmbed embedId="BCg4U1FzODs"/>
             </div>
             </div>
         </div>
